@@ -97,11 +97,11 @@ function output(name, url) {
 			break
 		case "wget commands":
 			if (url != nourl)
-				console.log("wget " + url + " -O '" + name + "'")
+				console.log("wget " + url + " -O '" + name + ".mp4'")
 			break
 		case "curl commands":
 			if (url != nourl)
-				console.log("curl " + url + " -o '" + name + "'")
+				console.log("curl " + url + " -o '" + name + ".mp4'")
 			break
 		case "wget commands oneliner":
 			if (url != nourl)
