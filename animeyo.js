@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Anime yo!
 // Scrapes kissanime.com and returns download links.
 var inquirer = require("inquirer"),
