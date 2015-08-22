@@ -32,7 +32,7 @@ var nourl = "No video found with specified resolution.",
 		type: "input",
 		message: "What Anime to grab download links for?"
 	},
-	{
+	/*{
 		name: "res",
 		type: "list",
 		message: "What resolution do you want: (Availability varies on Anime)",
@@ -42,6 +42,12 @@ var nourl = "No video found with specified resolution.",
 			'360p'
 		],
 		default: res,
+		filter: function( val ) { return val.toLowerCase(); }
+	},*/
+	{
+		name: "res",
+		type: "input",
+		message: "What resolution do you want? (1080p, 720p, etc..)",
 		filter: function( val ) { return val.toLowerCase(); }
 	},
 	{
